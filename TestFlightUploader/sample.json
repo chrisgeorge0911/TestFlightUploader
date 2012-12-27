@@ -1,0 +1,9 @@
+{
+  "ApiToken": "b4de1b7d8ee6384325aada8e2303144c_Mzk1MDE2MjAxMi0wNC0xMiAwODoxNDo0NS42MjUxNTI",
+  "TeamToken": "adde2e720b59de1de31243f54ba0c5d1_ODAyNTgyMDEyLTA1LTAxIDE2OjQyOjAxLjI0NTc2NQ",
+  "File": "c:\\iOS-app.ipa",
+  "Notes": "New release",
+  "Notify": false,
+  "Replace": true,
+  "DistributionLists": "Internal"
+}
