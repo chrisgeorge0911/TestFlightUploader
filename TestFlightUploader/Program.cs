@@ -22,13 +22,13 @@ namespace TestFlightUploader
                                            Path = watchPath,
                                            NotifyFilter = NotifyFilters.FileName | NotifyFilters.DirectoryName | NotifyFilters.LastWrite
                                        };
-            watcher.Created += fs_Changed;
-            watcher.Changed += fs_Changed;
+            watcher.Created += FsChanged;
+            watcher.Changed += FsChanged;
             watcher.EnableRaisingEvents = true;
             Console.ReadKey();
         }
 
-        private static void fs_Changed(object sender, FileSystemEventArgs e)
+        private static void FsChanged(object sender, FileSystemEventArgs e)
         {
             watcher.EnableRaisingEvents = false;
 
